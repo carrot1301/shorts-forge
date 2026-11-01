@@ -1,0 +1,93 @@
+{
+  "schema_version": 1,
+  "title": "80 PLUS: Watt cao chưa chắc nguồn tốt",
+  "brand": "YOUR CHANNEL",
+  "series": "TỰ HỌC BUILD PC",
+  "number": 5,
+  "tagline": "GIẢI THÍCH ĐỂ CHỌN ĐÚNG",
+  "narration": {
+    "mode": "edge",
+    "voice": "vi-VN-NamMinhNeural",
+    "rate": "+15%"
+  },
+  "caption_aliases": [["tám mươi plus", "80 PLUS"]],
+  "parts": [
+    {
+      "id": "hook",
+      "eyebrow": "ĐỪNG CHỌN NGUỒN BẰNG MỖI SỐ W",
+      "heading": "1000W rẻ hơn 750W?",
+      "sub": "Công suất • Hiệu suất • Chất lượng",
+      "model": "psu",
+      "big": "WATT CAO ≠ NGUỒN TỐT",
+      "detail": "So sánh giả định, không gán cho sản phẩm cụ thể.",
+      "source": "CORSAIR · What’s in the wattage?",
+      "text": "Nguồn một nghìn oát rẻ hơn nguồn bảy trăm năm mươi oát, vậy cứ mua số lớn cho hời? Chưa chắc! Công suất, hiệu suất và chất lượng là ba chuyện khác nhau."
+    },
+    {
+      "id": "watts",
+      "eyebrow": "01 / CÔNG SUẤT",
+      "heading": "750W là khả năng cấp điện",
+      "sub": "Không phải lúc nào cũng hút 750W từ ổ cắm",
+      "model": "psu",
+      "big": "XEM CÔNG SUẤT LIÊN TỤC",
+      "detail": "Đọc thêm công suất đường +12V và nhiệt độ định mức.",
+      "source": "CORSAIR · Continuous vs. peak power",
+      "text": "Số oát định mức nói khả năng cấp điện một chiều cho máy, trong điều kiện công bố. Máy cần bao nhiêu, nguồn cấp theo tải bấy nhiêu. Phải phân biệt công suất liên tục với công suất đỉnh ngắn hạn, xem đường mười hai vôn và nhiệt độ định mức."
+    },
+    {
+      "id": "tiers",
+      "eyebrow": "02 / HIỆU SUẤT · BẢNG 80 PLUS",
+      "heading": "Các mức chứng nhận",
+      "sub": "Standard → Bronze → Silver → Gold",
+      "model": "tiers",
+      "big": "PLATINUM → TITANIUM → RUBY",
+      "detail": "Số trên cột: ngưỡng tối thiểu ở 50% tải định mức.\nBảng 230V EU, nguồn internal non-redundant.",
+      "source": "CLEAResult · 80 PLUS PSU Ratings · 01/11/2026",
+      "text": "Tám mươi plus kiểm tra hiệu suất chuyển điện xoay chiều thành điện một chiều. Các mức gồm Standard, Bronze, Silver, Gold, Platinum, Titanium, và hiện có cả Ruby. Bảng ba chiều đang minh họa ngưỡng ở nửa tải, theo nhóm hai trăm ba mươi vôn châu Âu. Không áp một con số cho mọi mức tải."
+    },
+    {
+      "id": "efficiency",
+      "eyebrow": "03 / VÌ SAO HIỆU SUẤT QUAN TRỌNG?",
+      "heading": "Cùng cấp 400W cho máy",
+      "sub": "Điện vào = điện hữu ích + tổn hao",
+      "model": "flow",
+      "big": "ÍT HAO ĐIỆN • ÍT NHIỆT HƠN",
+      "detail": "Ví dụ tính toán, không phải số đo nguồn thật.\n80% và 90% là hiệu suất giả định, không gán hạng.",
+      "source": "CORSAIR · PSU Efficiency Ratings Explained",
+      "text": "Ví dụ máy cần bốn trăm oát: hiệu suất tám mươi phần trăm thì lấy năm trăm oát từ ổ điện, mất một trăm oát thành nhiệt. Ở chín mươi phần trăm, chỉ cần khoảng bốn trăm bốn mươi bốn oát. Hiệu suất tốt giúp giảm điện hao và nhiệt, chứ không biến nguồn bảy trăm năm mươi oát thành nguồn chỉ cấp được sáu trăm."
+    },
+    {
+      "id": "quality",
+      "eyebrow": "04 / CHỨNG NHẬN KHÔNG NÓI HẾT",
+      "heading": "Gold chưa phải tem bảo đảm mọi mặt",
+      "sub": "Hiệu suất là một tiêu chí trong nhiều tiêu chí",
+      "model": "psu",
+      "big": "ĐIỆN ÁP • RIPPLE • BẢO VỆ",
+      "detail": "Xem bài thử đúng model: tải lâu, nhiệt độ, độ ổn định,\nbảo vệ quá dòng / quá áp / quá nhiệt / ngắn mạch.",
+      "source": "CORSAIR · What’s in the wattage?",
+      "text": "Nhưng tem Gold chưa chứng minh mọi mặt đều tốt. Còn phải xem độ ổn định điện áp, nhiễu gợn, linh kiện và các mạch bảo vệ qua bài thử đúng model. Không có tem tám mươi plus cũng chưa đủ kết luận nguồn kém; cần xem chứng nhận và phép thử khác."
+    },
+    {
+      "id": "brands",
+      "eyebrow": "05 / “NGUỒN CỎ” LÀ TIẾNG LÓNG",
+      "heading": "Aigo hay Xigmatek?",
+      "sub": "Hãy xét từng mã, từng dòng sản phẩm",
+      "model": "psu",
+      "big": "KHÔNG KẾT LUẬN CẢ HÃNG",
+      "detail": "Không có model và bài thử cụ thể → chưa thể phán chất lượng.\nĐối chiếu chứng nhận và bài thử đúng mã trước khi mua.",
+      "source": "Nguyên tắc đối chiếu: thông số + thử nghiệm đúng model",
+      "text": "Còn chữ nguồn cỏ? Đó là tiếng lóng, không phải cấp chứng nhận kỹ thuật. Với Aigo hay Xigmatek, phải xét từng mã, từng dòng. Chưa có model và bài thử cụ thể thì không thể phán cả hãng đều kém, hay khẳng định số oát trên nhãn là giả."
+    },
+    {
+      "id": "price",
+      "eyebrow": "06 / GIÁ KHÔNG CHỈ TÍNH THEO WATT",
+      "heading": "1000W và 750W: so gì?",
+      "sub": "Hai ví dụ giả định • Không phải báo giá thị trường",
+      "model": "psu",
+      "big": "CÙNG ĐIỀU KIỆN MỚI SO ĐƯỢC",
+      "detail": "Liên tục hay đỉnh? +12V? Nhiệt độ? Bài thử?\nThiết kế, hiệu suất, bảo vệ và bảo hành cũng tạo chênh lệch.",
+      "source": "CORSAIR · Wattage, conditions & efficiency",
+      "text": "Một nguồn nghìn oát rẻ có thể khác nguồn bảy trăm năm mươi oát đắt ở cách công bố công suất, thiết kế, hiệu suất, bảo vệ và bảo hành. Giá thấp chưa tự chứng minh gian dối. Chốt mua: tra chứng nhận đúng mã, đọc bài thử tải độc lập, rồi chọn công suất đủ cho cấu hình. Đừng mua mỗi con số trên hộp!"
+    }
+  ]
+}

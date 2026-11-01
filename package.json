@@ -1,0 +1,40 @@
+{
+  "name": "shorts-forge",
+  "version": "0.1.0",
+  "private": true,
+  "description": "From script to narrated vertical video: aligned captions, reviewed B-roll and original 3D.",
+  "type": "module",
+  "license": "MIT",
+  "engines": {
+    "node": ">=22.13.0"
+  },
+  "bin": {
+    "shorts-forge": "./bin/shorts-forge.mjs"
+  },
+  "scripts": {
+    "forge": "node bin/shorts-forge.mjs",
+    "doctor": "node bin/shorts-forge.mjs doctor",
+    "demo": "node bin/shorts-forge.mjs demo",
+    "test": "node --test --test-concurrency=1 tests/*.test.mjs",
+    "check:public": "node scripts/check-public.mjs",
+    "format": "prettier --write .",
+    "format:check": "prettier --check ."
+  },
+  "dependencies": {
+    "@remotion/bundler": "4.0.539",
+    "@remotion/renderer": "4.0.539",
+    "msedge-tts": "2.1.1",
+    "playwright": "1.58.2",
+    "react": "19.2.0",
+    "react-dom": "19.2.0",
+    "remotion": "4.0.539",
+    "three": "0.180.0"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/carrot1301/shorts-forge.git"
+  },
+  "devDependencies": {
+    "prettier": "3.6.2"
+  }
+}

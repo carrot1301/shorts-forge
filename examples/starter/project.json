@@ -1,0 +1,26 @@
+{
+  "schema_version": 1,
+  "title": "Video đầu tiên của tôi",
+  "brand": "YOUR CHANNEL",
+  "series": "CHIA SẺ MỖI NGÀY",
+  "number": 1,
+  "tagline": "MỖI VIDEO MỘT Ý TƯỞNG",
+  "narration": {
+    "mode": "edge",
+    "voice": "vi-VN-NamMinhNeural",
+    "rate": "+15%"
+  },
+  "parts": [
+    {
+      "id": "hook",
+      "eyebrow": "BẮT ĐẦU TỪ MỘT CÂU HỎI",
+      "heading": "Một ý tưởng. Một video.",
+      "sub": "Chỉnh nội dung này trong project.json",
+      "model": "abstract",
+      "big": "NÓI RÕ ĐIỀU NGƯỜI XEM NHẬN ĐƯỢC",
+      "detail": "Chọn một ý chính, giải thích bằng một ví dụ dễ hiểu.",
+      "source": "Kịch bản của bạn",
+      "text": "Một video ngắn bắt đầu từ một ý tưởng rõ ràng. Hãy đặt một câu hỏi khiến người xem muốn biết câu trả lời, rồi giải thích bằng một ví dụ thật dễ hiểu."
+    }
+  ]
+}

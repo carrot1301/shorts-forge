@@ -1,0 +1,93 @@
+{
+  "schema_version": 1,
+  "title": "SSD NVMe 0% sức khỏe: vẫn nhanh, còn bền không?",
+  "brand": "YOUR CHANNEL",
+  "series": "TỰ HỌC BUILD PC",
+  "number": 6,
+  "tagline": "GIẢI THÍCH ĐỂ CHỌN ĐÚNG",
+  "narration": {
+    "mode": "edge",
+    "voice": "vi-VN-NamMinhNeural",
+    "rate": "+15%"
+  },
+  "caption_aliases": [["tám mươi plus", "80 PLUS"]],
+  "parts": [
+    {
+      "id": "hook",
+      "eyebrow": "0% SỨC KHỎE ≠ 0 MB/s",
+      "heading": "SSD báo 0% vẫn chạy nhanh?",
+      "sub": "Một con số không thể nói hết tình trạng ổ",
+      "model": "ssd",
+      "big": "VẪN NHANH ≠ CÒN BỀN LÂU",
+      "detail": "Mô hình minh họa, không phải SSD hay phép đo thật.",
+      "source": "Microsoft Learn · NVMe Health Information Log",
+      "text": "SSD NVMe báo không phần trăm sức khỏe mà vẫn chạy nhanh, vậy con số đó vô nghĩa à? Không. Nhưng nó cũng không có nghĩa tốc độ còn không phần trăm, hay ổ sẽ hỏng ngay hôm nay."
+    },
+    {
+      "id": "mapping",
+      "eyebrow": "01 / PHẦN MỀM ĐANG ĐỌC GÌ?",
+      "heading": "Tách “còn lại” và “đã dùng”",
+      "sub": "Đọc SMART gốc và cách ứng dụng diễn giải",
+      "model": "ssd",
+      "big": "HEALTH CÒN LẠI ≠ PERCENTAGE USED",
+      "detail": "Ví dụ cách hiển thị: còn lại = max(0, 100 − đã dùng).\nKhông phải công thức chung cho mọi ổ / mọi phần mềm.",
+      "source": "Microsoft Learn · PercentageUsed",
+      "text": "Trước hết, phần mềm đọc dữ liệu SMART của ổ; đừng gọi chung là web đo sức khỏe. Có ứng dụng đổi chỉ số Percentage Used, tức phần độ bền đã dùng, thành phần trăm còn lại. Cách hiển thị tùy phần mềm và hãng. Percentage Used bằng không lại thường là rất ít hao mòn, ngược với sức khỏe còn không."
+    },
+    {
+      "id": "endurance",
+      "eyebrow": "02 / MỐC ĐỘ BỀN ƯỚC TÍNH",
+      "heading": "Đã dùng 100% ≠ hỏng ngay",
+      "sub": "Mốc ước tính của nhà sản xuất, không phải hẹn giờ",
+      "model": "wear",
+      "big": "CÓ THỂ VƯỢT 100% ĐÃ DÙNG",
+      "detail": "Nếu 0% còn lại được suy từ Percentage Used ≥ 100:\nđã tiêu hết mức độ bền ước tính, chưa khẳng định ổ đã chết.",
+      "source": "Microsoft Learn · NVMe PercentageUsed definition",
+      "text": "Theo định nghĩa NVMe, đã dùng một trăm phần trăm nghĩa là đã tiêu hết độ bền ước tính của nhà sản xuất, không nhất thiết ổ đã hỏng. Chỉ số này còn có thể vượt một trăm. Đây là ước lượng hao mòn theo sử dụng và mô hình của hãng, không phải xác suất sống sót hay số năm còn lại."
+    },
+    {
+      "id": "speed",
+      "eyebrow": "03 / HAO MÒN VÀ TỐC ĐỘ LÀ HAI VIỆC",
+      "heading": "Tại sao vẫn đọc ghi nhanh?",
+      "sub": "Controller tiếp tục quản lý NAND khi còn hoạt động",
+      "model": "wear",
+      "big": "WEAR LEVELING • ECC • KHỐI DỰ PHÒNG",
+      "detail": "Cân bằng ghi, sửa lỗi và quản lý khối thay thế.\nĐây là sơ đồ khái niệm, không mô phỏng một SSD cụ thể.",
+      "source": "Kingston · SSD FAQ, wear leveling & over-provisioning",
+      "text": "Ổ vẫn có thể đọc ghi bình thường vì bộ điều khiển còn quản lý được NAND, cân bằng ghi, sửa lỗi và dùng khối dự phòng. Phần trăm hao mòn không phải nút giảm tốc theo tỷ lệ. Tốc độ còn tùy bộ đệm, nhiệt độ, dung lượng trống và kết nối."
+    },
+    {
+      "id": "years",
+      "eyebrow": "04 / “CÒN DÙNG VÀI BA NĂM” THÌ SAO?",
+      "heading": "Có thể chạy tiếp, không hẹn được ngày",
+      "sub": "Không suy tuổi thọ còn lại từ một lần đo tốc độ",
+      "model": "ssd",
+      "big": "KHÔNG CAM KẾT THÊM 2–3 NĂM",
+      "detail": "Chạy nhanh hôm nay không chứng minh an toàn dữ liệu ngày mai.\nSMART cũng không dự báo được mọi kiểu hỏng.",
+      "source": "Phân biệt độ bền, hiệu năng và độ tin cậy",
+      "text": "Vậy dùng thêm vài ba năm được không? Có ổ chạy tiếp lâu, nhưng không thể hứa cho chiếc ổ cụ thể. Một lượt benchmark nhanh không chứng minh dữ liệu sẽ an toàn lâu dài. Ngược lại, ổ báo sức khỏe cao vẫn có thể gặp sự cố khác. Đừng coi phần trăm là lời bảo đảm."
+    },
+    {
+      "id": "checks",
+      "eyebrow": "05 / XEM CẢ BỘ CHỈ SỐ",
+      "heading": "Đừng chỉ chụp mỗi ô Health",
+      "sub": "Đúng model • Đúng firmware • Theo dõi thay đổi",
+      "model": "ssd",
+      "big": "SMART + TBW CÔNG BỐ + TRIỆU CHỨNG",
+      "detail": "Percentage Used · Data Units Written · Critical Warning\nAvailable Spare / ngưỡng · Media Errors · Nhiệt độ",
+      "source": "NVM Express · NVMe-CLI health monitoring; Microsoft Learn",
+      "text": "Hãy xem lượng dữ liệu đã ghi, độ bền TBW đúng model, cảnh báo nghiêm trọng, khối dự phòng, lỗi dữ liệu và nhiệt độ; theo dõi chúng có xấu dần không. Available Spare là phần dung lượng dự phòng còn lại, không phải cùng chỉ số sức khỏe. Ổ mất kết nối hoặc chỉ cho đọc càng cần xử lý sớm."
+    },
+    {
+      "id": "decision",
+      "eyebrow": "06 / QUYẾT ĐỊNH DỰA TRÊN DỮ LIỆU",
+      "heading": "0% không vô nghĩa, cũng không là bản án",
+      "sub": "Hiệu năng hiện tại ≠ tuổi thọ còn lại",
+      "model": "backup",
+      "big": "SAO LƯU TRƯỚC • TÍNH THAY Ổ",
+      "detail": "Ổ đã mòn: chủ động kế hoạch thay, nhất là dữ liệu quan trọng.\nKhông có phần trăm nào thay thế bản sao lưu độc lập.",
+      "source": "Khuyến nghị thực hành dựa trên các chỉ số và mức độ quan trọng dữ liệu",
+      "text": "Chốt lại, không phần trăm là tín hiệu cần kiểm tra, sao lưu và tính phương án thay, nhất là khi dữ liệu quan trọng. Đừng vứt ổ chỉ vì một ô phần trăm; cũng đừng giữ bản dữ liệu duy nhất trên ổ đã mòn chỉ vì nó vẫn nhanh."
+    }
+  ]
+}

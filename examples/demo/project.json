@@ -1,0 +1,26 @@
+{
+  "schema_version": 1,
+  "title": "Watt cao chưa chắc nguồn tốt — demo",
+  "brand": "YOUR CHANNEL",
+  "series": "SHORTS FORGE DEMO",
+  "number": 1,
+  "tagline": "SCRIPT → VOICE → CAPTIONS → 3D → MP4",
+  "narration": {
+    "mode": "import",
+    "audio": "narration.flac",
+    "words": "words.json"
+  },
+  "parts": [
+    {
+      "id": "hook",
+      "eyebrow": "ĐỪNG CHỌN NGUỒN BẰNG MỖI SỐ W",
+      "heading": "1000W rẻ hơn 750W?",
+      "sub": "Công suất • Hiệu suất • Chất lượng",
+      "model": "psu",
+      "big": "WATT CAO ≠ NGUỒN TỐT",
+      "detail": "So sánh giả định, không gán cho sản phẩm cụ thể.",
+      "source": "CORSAIR · What’s in the wattage?",
+      "text": "Nguồn một nghìn oát rẻ hơn nguồn bảy trăm năm mươi oát, vậy cứ mua số lớn cho hời? Chưa chắc! Công suất, hiệu suất và chất lượng là ba chuyện khác nhau."
+    }
+  ]
+}

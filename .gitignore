@@ -1,0 +1,16 @@
+node_modules/
+cache/
+projects/
+dist/
+renders/
+coverage/
+.env
+.env.*
+!.env.example
+*.log
+*.partial.*
+*.local.*
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
